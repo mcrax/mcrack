@@ -1,0 +1,126 @@
+-jangan ganti file dalam google play folder
+( google play environment )
+
+- Contents.json :
+{
+    "content": [
+      {
+         "path" : "textures/ui/attribution_arrow.png"
+      },
+      {
+         "path" : "textures/ui/itunes.png"
+      },
+      {
+         "path" : "textures/ui/terms.png"
+      },
+      {
+         "path" : "textures/ui/privacy.png"
+      },
+      {
+         "path" : "textures/ui/licensed.png"
+      },
+      {
+         "path" : "textures/ui/X-box.png"
+      },
+      {
+         "path" : "textures/ui/feed_back.png"
+      },
+      {
+         "path" : "textures/ui/quit.png"
+      },
+      {
+         "path" : "textures/ui/education.png"
+      },
+      {
+         "path" : "textures/ui/rules.png"
+      },
+      {
+         "path" : "textures/ui/youtube.png"
+      },
+      {
+         "path" : "textures/ui/instagram.png"
+      },
+      {
+         "path" : "textures/ui/bg.png"
+      },
+    ]
+}
+
+        {
+            "path": "textures/ui/panorama_0"
+        },
+        {
+            "path": "textures/ui/panorama_1"
+        },
+        {
+            "path": "textures/ui/panorama_2"
+        },
+        {
+            "path": "textures/ui/panorama_3"
+        },
+        {
+            "path": "textures/ui/panorama_4"
+        },
+        {
+            "path": "textures/ui/panorama_5"
+        },
+
+- Texture List.json :
+  "textures/ui/attribution_arrow", 
+  "textures/ui/licensed", 
+  "textures/ui/X-box", 
+  "textures/ui/feed_back", 
+  "textures/ui/rules", 
+  "textures/ui/itunes", 
+  "textures/ui/terms", 
+  "textures/ui/privacy",
+  "textures/ui/quit",
+  "textures/ui/education",
+  "textures/ui/bg", 
+  "textures/ui/youtube",
+  "textures/ui/instagram",  
+  
+  "textures/ui/panorama_0",
+  "textures/ui/panorama_1",
+  "textures/ui/panorama_2",
+  "textures/ui/panorama_3",
+  "textures/ui/panorama_4",
+  "textures/ui/panorama_5",
+  
+- ServerManagedPolicy
+# virtual methods
+.method public allowAccess()Z
+    .locals 8
+
+    .prologue
+    const/4 v3, 0x1
+
+    const/4 v2, 0x1
+	
+- APKExpansion
+# virtual methods
+.method public allowAccess()Z
+    .locals 8
+
+    .prologue
+    const/4 v3, 0x1
+
+    const/4 v2, 0x1
+	
+- License Validator
+    move-result-object v5
+
+    invoke-virtual {v3, v5}, Ljava/security/Signature;->verify([B)Z
+
+    const v5, 0x1
+	
+- StrictPolicy
+    if-ne v0, v1, :cond_0
+
+    const/4 v0, 0x1
+
+    :goto_0
+    return v0
+
+    :cond_0
+    const/4 v0, 0x1
