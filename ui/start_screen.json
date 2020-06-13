@@ -1,4 +1,4 @@
-﻿{
+{
   "namespace": "start",
 
       "bg": {
@@ -296,7 +296,7 @@
     "ui_version": {
     "type": "label",
     "layer": 2,
-    "text": "X-plug Hotfix 1.1",
+    "text": "X-plug Initial Release",
     "size": [ "default", 9 ],
     "max_size": [ "100%", "100%" ],
     "anchor_from": "center",
