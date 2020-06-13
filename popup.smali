@@ -54,7 +54,7 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setTextSize(F)V
 
-    const-string v3, "<b>\u2800 X-plug<br/><i><font color=red>\u2192</font> Hotfix 1.1<br/>\u002b Perbaikan crash pada plugin<br/>\u002b Perbaikan tidak bisa di instal<br/>   -Animasi Fade In/out<br/>   -Animasi Wait Treshold<br/>\u002b Support 1.15+<br/>\u002b Penambahan Social Media<br/>\u002b Penambahan Intro<br/>\u002b Perbaikan Bug<br/><br/><i><font color=yellow>\u2192</font>Instagram :<font color=white><a href=https://www.instagram.com/m.c874/?hl=id</a>Klik Disini</font></i><br/><i><font color=yellow>\u2192</font>Masalah :<font color=white><a href=https://bugs.mojang.com</a>Laporkan Bug!</font></i></b><br/><br/><font color=#FFA500></a></font><br/><font color=red><a href=https://www.youtube.com/channel/UCdlsNYlA7yTFt8OwwiIJiSw>Subscribe Sekarang! </a></font>"
+    const-string v3, "<b>\u2800 X-plug<br/><i><font color=red>\u2192</font> 2.0 Release<br/>\u002b Penambahan bagian sosial media<br/>   -Twitter section<br/>   -Instagram section<br/>   -Youtube section<br/>   -Google section<br/>\u002b Penambahan beberapa fitur dan bug fixes<br/>\u002b Penambahan X-plug changelog<br/><br/><i><font color=yellow>\u2192</font>Instagram :<font color=white><a href=https://www.instagram.com/m.c874/?hl=id</a>Klik Disini</font></i><br/><i><font color=yellow>\u2192</font>Masalah :<font color=white><a href=https://bugs.mojang.com</a>Laporkan Bug!</font></i></b><br/><br/><font color=#FFA500></a></font><br/><font color=red><a href=https://www.youtube.com/channel/UCdlsNYlA7yTFt8OwwiIJiSw>Subscribe Sekarang! </a></font>"
 
     invoke-static {v3}, Landroid/text/Html;->fromHtml(Ljava/lang/String;)Landroid/text/Spanned;
 
