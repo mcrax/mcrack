@@ -17,7 +17,7 @@ Now add new AndroidName and path into PmsHookApplication.smali, so it'll look li
 ```
 3. After doing all the steps, now rebuild/recompile the apk's (On APK Easy Tool For Windows, you need to zipalign the apk's after doing signing).
 
-# So What The Uses Of Other Redundant Files?
+# What The Uses Of Other Redundant Files?
 Well, its just mine GUI for Minecraft Bedrock, so it'll show some WaterMark and Custom Background of MCrack. I think, Im not gonna explain how to install those since its not necessary....
 
 # Congratulation!
