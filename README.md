@@ -11,7 +11,7 @@ You'll grab some apk modifier such as [APK Easy Tool For Windows](https://forum.
 ```
     <application android:icon="@drawable/icon" android:label="@string/app_name">
 ```
-Now add new AndroidName and path into PmsHookApplication.xml, so it'll look like this :
+Now add new AndroidName and path into PmsHookApplication.smali, so it'll look like this :
 ```
     <application android:icon="@drawable/icon" android:label="@string/app_name" android:name="com.mojang.minecraftpe.PmsHookApplication">
 ```
