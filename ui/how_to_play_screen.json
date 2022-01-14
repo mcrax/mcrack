@@ -318,8 +318,15 @@
     ]
   },
 
-  "youtube_button@how_to_play_common.section_toggle_button": {
-    "$section_topic": "youtube"
+      "youtube_button@settings_common.section_toggle_base": {
+    "$toggle_view_binding_name": "youtube_button_toggle",
+    "$glyph_texture": "textures/ui/ytube",
+    "$glyph_color_texture": "textures/ui/ytube",
+    "$glyph_size": [ 20, 20 ],
+    "$button_text": "Youtube",
+    "$toggle_property_bag": {
+      "#panel_title": "Youtube"
+    }
   },
   "youtube_section@how_to_play_common.main_sections": {
     "bindings": [
@@ -355,8 +362,15 @@
        ]
     },
 	
-  "insta_button@how_to_play_common.section_toggle_button": {
-    "$section_topic": "insta"
+      "insta_button@settings_common.section_toggle_base": {
+    "$toggle_view_binding_name": "insta_button_toggle",
+    "$glyph_texture": "textures/ui/ig",
+    "$glyph_color_texture": "textures/ui/ig",
+    "$glyph_size": [ 20, 20 ],
+    "$button_text": "Instagram",
+    "$toggle_property_bag": {
+      "#panel_title": "Instagram"
+    }
   },
   "insta_section@how_to_play_common.main_sections": {
     "bindings": [
@@ -386,8 +400,15 @@
        ]
     },
 
-  "twitter_button@how_to_play_common.section_toggle_button": {
-    "$section_topic": "twitter"
+      "twitter_button@settings_common.section_toggle_base": {
+    "$toggle_view_binding_name": "twitter_button_toggle",
+    "$glyph_texture": "textures/ui/twitter",
+    "$glyph_color_texture": "textures/ui/twitter",
+    "$glyph_size": [ 20, 20 ],
+    "$button_text": "Twitter",
+    "$toggle_property_bag": {
+      "#panel_title": "Twitter"
+    }
   },
   "twitter_section@how_to_play_common.main_sections": {
     "bindings": [
@@ -414,8 +435,15 @@
        ]
     },
 
-  "changelog_button@how_to_play_common.section_toggle_button": {
-    "$section_topic": "changelog"
+      "changelog_button@settings_common.section_toggle_base": {
+    "$toggle_view_binding_name": "changelog_button_toggle",
+    "$glyph_texture": "textures/ui/change",
+    "$glyph_color_texture": "textures/ui/change",
+    "$glyph_size": [ 20, 20 ],
+    "$button_text": "X-plug 2.0",
+    "$toggle_property_bag": {
+      "#panel_title": "X-plug 2.0"
+    }
   },
   "changelog_section@how_to_play_common.main_sections": {
     "bindings": [
@@ -454,8 +482,15 @@
        ]
     },
 
-  "google_button@how_to_play_common.section_toggle_button": {
-    "$section_topic": "google"
+      "google_button@settings_common.section_toggle_base": {
+    "$toggle_view_binding_name": "google_button_toggle",
+    "$glyph_texture": "textures/ui/google",
+    "$glyph_color_texture": "textures/ui/google",
+    "$glyph_size": [ 20, 20 ],
+    "$button_text": "E-Mail",
+    "$toggle_property_bag": {
+      "#panel_title": "E-Mail"
+    }
   },
   "google_section@how_to_play_common.main_sections": {
     "bindings": [
@@ -490,6 +525,7 @@
 		  }
        ]
     },
+
   "adventure_mode_button@how_to_play_common.section_toggle_button": {
     "$section_topic": "adventureMode"
   },
